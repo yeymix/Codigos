@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class Diferencia {
 
 	 public static void main(String[] a) throws Exception{
 	      

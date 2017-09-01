@@ -1,8 +1,12 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Uva102 {
-
+	
+	
 	public static void main(String[] arg){
+	
+		Scanner captura = new Scanner(System.in);
 		
 		int canasta[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 		int menor[] = new int[6];
@@ -32,8 +36,9 @@ public class Uva102 {
 		menor[5] = g[0]+c[1]+b[2];
 	
 		
-		int guarda=999999999;
-
+		int guarda=canasta[0];
+		color = colores[0];
+		
 		for(int i=0;i<menor.length;i++){
 			if(menor[i]<guarda){
 				guarda=menor[i];

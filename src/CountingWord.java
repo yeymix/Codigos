@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+ * cuenta la cantidad de palabras de una cadena, no solo espacios... también caracteres especiales...
+ */
+
 public class CountingWord {
 
 	public static void main(String[] arg) {

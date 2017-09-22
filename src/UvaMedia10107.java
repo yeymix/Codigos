@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Media10107 {
+public class UvaMedia10107 {
 
 	public static void main(String[] arg){
 

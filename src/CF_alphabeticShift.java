@@ -18,7 +18,6 @@ public class CF_alphabeticShift {
 			palabra += (char)(inputString.charAt(i)+1);
 		}
 		
-
 		return palabra;
 	}
 
